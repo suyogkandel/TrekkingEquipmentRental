@@ -1,0 +1,92 @@
+/*  --------google fonts--------*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;1,200;1,700&display=swap');
+
+/*--------------base style-----*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*-----------pre define css---------*/
+h1,h2,h3,h4,h5,h6{
+  color: rgb(0, 0, 0);
+  font-weight:600 ;
+  margin-bottom: 0;
+}
+
+h3,h4{
+  font-size: 1.8rem;
+}
+h5,h6{
+  font-size: 1.2rem;
+}
+a{
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover{
+  color: unset;
+}
+
+ul{
+  margin: 0;
+  list-style: none;
+}
+.section_title{
+  color: blue;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.section_subtitle{
+  color:burlywood;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.section_description{
+  color:silver;
+  font-size: 9rem;
+  line-height: 30px;
+}
+
+.section{
+  padding: 50px 0px;
+}
+
+.btn:hover{
+  color:orange ;
+  
+}
+.navbar-btn{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: blue;
+    padding: 7px 7px ;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.navbar-btn:hover{
+    color: orange;
+}
+.button-with-margin-left {
+    margin-left: 10px;
+  }
+  
+@media only screen and (max-width:768px){
+  section{
+    padding: 30px 0px;
+  }
+  .section_title{
+    font-size: 1.6rem;
+  }
+  .section_subtitle{
+    font-size: 1.1rem;
+  }
+}
+
+
+

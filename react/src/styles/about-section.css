@@ -1,0 +1,8 @@
+.section__description {
+    color: black;
+}
+
+.about__section-item p i{
+    color: orange;
+    font-size: 1.1rem;
+}

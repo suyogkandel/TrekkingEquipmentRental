@@ -1,0 +1,8 @@
+.common__section{
+    background: linear-gradient(rgba(3, 3, 17, 0.699),rgba(82, 76, 76, 0.699)),
+    url("../../src/assets/all-images/all.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0px;
+}
